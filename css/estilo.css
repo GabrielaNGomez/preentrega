@@ -1,0 +1,368 @@
+@font-face {
+    font-family: inter;
+    src: url(../font/Inter-Regular.ttf);
+}
+/* Body */
+.bodyHome {
+    width: 1272px;
+    height: 760px;
+    background-color: #141112;
+    background-image: url(../img/fondo-bodyindex.png);
+    background-repeat: no-repeat;
+
+}
+
+.bodyPages {
+    width: 1272px;
+    height: 760px;
+    background-color: #141112;
+    background-image: url(../img/body-pages.png);
+    background-repeat: no-repeat;
+
+}
+
+.bodyProyectos {
+    width: 1272px;
+    height: 760px;
+    background-color: #FFFFFF;
+    background-image: url(../img/body-pages-1.png);
+    background-repeat: no-repeat;
+}
+
+/* Header */
+.navegador {
+    list-style: none;
+    font-family: inter;
+    font-size: 16px; 
+    text-transform: uppercase;
+}
+
+a {
+    text-decoration: none;
+    color: #62C5E3;
+}
+
+.item1 {
+    position: absolute;
+    width: 93px;
+    height: 42px;
+    left: 765px;
+    top: 30px;  
+}
+
+.item2 {
+    position: absolute;
+    width: 93px;
+    height: 42px;
+    left: 846px;
+    top: 30px;
+
+}
+
+.item3 {
+    position: absolute;
+    width: 94px;
+    height: 42px;
+    left: 978px;
+    top: 30px;
+}
+
+.item4 {
+    position: absolute;
+    width: 94px;
+    height: 42px;
+    left: 1085px;
+    top: 30px;
+
+}
+
+/* Footer */
+.linkedin {
+    position: absolute;
+    Width: 40px;
+    Height: 40px;
+    Top: 718px;
+    Left: 566px;
+}
+
+.behance {
+    position: absolute;
+    Width: 40px;
+    Height: 40px;
+    Top: 718px;
+    Left: 616px;
+}
+
+.instagram {
+    position: absolute;
+    Width: 40px;
+    Height: 40px;
+    Top: 718px;
+    Left: 666px;
+}
+
+/* Main */
+/* Formulario */
+h1{
+    position: absolute;
+    font-family: inter;
+    font-size: 35px;
+    line-height: 42.36px;
+    color: #6E6E6E;
+    top: 124px;
+    left: 304px;
+}
+
+.textForm {
+    position: absolute;
+    font-family: inter;
+    font-size: 16px;
+    line-height: 19.36px;
+    color: #FFFFFF;
+    top: 182px;
+    left: 304px;
+    Width: 683px;
+}
+
+.botones {
+    position: absolute;
+    top: 640px;
+    Left: 564px;
+}
+
+.nombre {
+    position: absolute;
+    Top: 270px;
+    Left: 304px;
+    color: #FFFFFF;
+    font-family:sans-serif;
+    Size: 16px;
+}
+
+.apellido {
+    position: absolute;
+    Top: 275px;
+    Left: 665px;
+    color: #FFFFFF;
+    font-family:sans-serif;
+    Size: 16px;
+}
+
+.correo {
+    position: absolute;
+    Top: 345px;
+    Left: 304px;
+    color: #FFFFFF;
+    font-family: inter;
+    Size: 16px;
+}
+
+.telefono {
+    position: absolute;
+    Top: 345px;
+    Left: 665px;
+    color: #FFFFFF;
+    font-family: inter;
+    Size: 16px;
+
+}
+
+.mensajeForm {
+    position: absolute;
+    font-family: inter;
+    font-style: normal;
+    font-size: 16px;
+    line-height: 19.36px;
+    color: #FFFFFF;
+    top: 400px;
+    left: 304px;
+    Width: 683px;
+}
+
+.mensaje {
+    position: absolute;
+    Top: 450px;
+    Left: 304px;
+}
+
+h2 {
+    position: absolute;
+    font-family: inter;
+    font-size: 24px; 
+    color: #FFFFFF;
+    Top: 377px;
+    Left: 452px;
+}
+
+/* Page Trabajos */
+.h2TextWork {
+    position: absolute;
+    font-family: inter; 
+    font-size: 35px; 
+    color: #6E6E6E;
+    Width: 350px;
+    Height: 84px;
+    Top: 123px;
+    Left: 100px;
+}
+
+.textWork {
+    position: absolute;
+    font-family: inter; 
+    font-size: 18px;
+    color: #6E6E6E; 
+    Width: 340px;
+    Height:156px;
+    Top:221px;
+    Left: 100px;
+}
+
+.imagen1 {
+    position:absolute;
+    Width: 346px;
+    Height: 255px;
+    Top: 137px;
+    Left:465px;
+}
+.imagen2 {
+    position:absolute;
+    Width: 346px;
+    Height: 255px;
+    Top: 137px;
+    Left: 823px;
+}
+.imagen3 {
+    position:absolute;
+    Width: 346px;
+    Height: 255px;
+    Top: 402px; 
+    Left: 100px;
+}
+.imagen4 {
+    position:absolute;
+    Width: 346px;
+    Height: 255px;
+    Top: 402px;
+    Left: 465px;
+}
+.imagen5 {
+    position:absolute;
+    Width: 346px;
+    Height: 255px;
+    Top: 402px;
+    Left: 823px;
+}
+
+/* Page Proyectos H2 */
+.h2DiseñoGráfico {
+    position:absolute;
+    font-family: inter; 
+    font-size: 35px; 
+    color: #6E6E6E;
+    Width: 78px;
+    Height: 37px;
+    Top: 124px;
+    Left: 100px;
+}
+.h2DiseñoUxui {
+    position:absolute;
+    font-family: inter; 
+    font-size: 35px; 
+    color: #6E6E6E;
+    Width: 72px;
+    Height: 37px;
+    Top: 124px;
+    Left: 370px;
+}
+.h2Animaciones {
+    position:absolute;
+    font-family: inter; 
+    font-size: 35px; 
+    color: #6E6E6E;
+    Width: 78px;
+    Height: 37px;
+    Top: 124px;
+    Left: 641px;
+}
+.h2DiseñoWeb {
+    position:absolute;
+    font-family: inter; 
+    font-size: 35px; 
+    color: #6E6E6E;
+    Width: 78px;
+    Height: 37px;
+    Top: 122px;
+    Left: 912px;
+}
+
+/* Page Proyectos H3 */
+.h3DiseñoGráfico {
+    position:absolute;
+    font-family: inter; 
+    font-size: 20px; 
+    color: #FFFFFF;
+    Width: 172px;
+    Height: 22px;
+    Top: 632px;
+    Left: 100px;
+}
+.h3DiseñoUxui{
+    position:absolute;
+    font-family: inter; 
+    font-size: 20px; 
+    color: #FFFFFF;
+    Width: 186px;
+    Height: 22px;
+    Top: 632px;
+    Left: 370px;
+}
+.h3Animaciones{
+    position:absolute;
+    font-family: inter; 
+    font-size: 20px; 
+    color: #FFFFFF;
+    Width: 187px;
+    Height: 22px;
+    Top: 632px;
+    Left: 641px;
+}
+.h3DiseñoWeb {
+    position:absolute;
+    font-family: inter; 
+    font-size: 20px; 
+    color: #FFFFFF;
+    Width: 190px;
+    Height: 22px;
+    Top: 632px;
+    Left: 912px;
+}
+
+/* Page Proyectos Imagen */
+.imgDiseñoGráfico {
+    position:absolute;
+    Width: 261px;
+    Height: 430px;
+    Top: 200px;
+    Left: 100px;
+}
+.imgDiseñoUxui{
+    position:absolute;
+    Width: 261px;
+    Height: 430px;
+    Top: 200px;
+    Left: 370px;
+}
+.imgAnimaciones{
+    position:absolute;
+    Width: 261px;
+    Height: 430px;
+    Top: 200px;
+    Left: 641px;
+}
+.imgDiseñoWeb {
+    position:absolute;
+    Width: 261px;
+    Height: 430px;
+    Top: 200px;
+    Left: 912px;
+}
